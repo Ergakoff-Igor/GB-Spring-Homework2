@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2314593f-9bd5-486f-aae5-c02cfcba3d53" name="Changes" comment="GB - Spring. Homework 2. Start">
+    <list default="true" id="2314593f-9bd5-486f-aae5-c02cfcba3d53" name="Changes" comment="GB - Spring. Homework 2. Delete by ID">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/ergakov/gb/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ergakov/gb/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ergakov/gb/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ergakov/gb/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/ergakov/gb/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ergakov/gb/repositories/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/ergakov/gb/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ergakov/gb/service/UserService.java" afterDir="false" />
     </list>
@@ -60,10 +62,17 @@
       <recent name="C:\Users\Ierga\IdeaProjects\GB-Spring\GB-Spring-Homework2\src\main\java\ru\ergakov\gb" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GB-Spring HW2">
     <configuration name="GB-Spring HW2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.ergakov.gb.HW2Application" />
       <module name="GB-Spring-Homework2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HW2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="GB-Spring-Homework2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.ergakov.gb.HW2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706723960982</updated>
       <workItem from="1706723962034" duration="1751000" />
-      <workItem from="1706725731443" duration="1534000" />
+      <workItem from="1706725731443" duration="9299000" />
     </task>
     <task id="LOCAL-00001" summary="GB - Spring. Homework 2. Start">
       <option name="closed" value="true" />
@@ -95,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706725537512</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="GB - Spring. Homework 2. Delete by ID">
+      <option name="closed" value="true" />
+      <created>1706727674235</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706727674235</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GB - Spring. Homework 2. Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="GB - Spring. Homework 2. Start" />
+    <MESSAGE value="GB - Spring. Homework 2. Delete by ID" />
+    <option name="LAST_COMMIT_MESSAGE" value="GB - Spring. Homework 2. Delete by ID" />
   </component>
 </project>

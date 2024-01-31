@@ -34,12 +34,20 @@ public class UserRepository {
     public User save(User user) {
         String sql = "INSERT INTO userTable (firstName,lastName) VALUES ( ?, ?)";
         jdbc.update(sql, user.getFirstName(), user.getLastName());
-        return  user;
+        return user;
     }
 
-    public void deleteById(int id){
+    public void deleteById(int id) {
         String sql = "DELETE FROM userTable WHERE id=?";
-        Object[] args = new Object[] {id};
-        jdbc.update(sql, args);
+        jdbc.update(sql, id);
+    }
+
+    public User findUser(int id){
+        String sql = "SELECT * FROM userTable WHERE id=?";
+        return jdbc.queryForObject(sql, User.class, id);
+    }
+    public void updateUser(User user, int id) {
+        String sql = "UPDATE userTable SET firstName=?, lastName=? WHERE id=?";
+        jdbc.update(sql, user.getFirstName(), user.getLastName(), id);
     }
 }
