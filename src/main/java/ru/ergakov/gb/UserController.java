@@ -1,5 +1,6 @@
 package ru.ergakov.gb;
 
+import org.springframework.web.bind.annotation.PathVariable;
 import ru.ergakov.gb.model.User;
 import ru.ergakov.gb.service.UserService;
 import org.springframework.stereotype.Controller;
@@ -38,5 +39,9 @@ public class UserController {
         return "redirect:/users";
     }
 
-    //@GetMapping("user-delete/{id}")
+    @GetMapping("user-delete/{id}")
+    public String deleteUser(@PathVariable("id") int id){
+        userService.deleteById(id);
+        return "redirect:/users";
+    }
 }
